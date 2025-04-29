@@ -92,9 +92,12 @@
   }
 }
 
+/*font-family: "Literata", serif;*/
+
+
 body {
   margin: 0;
-  font-family: "Literata", serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -114,10 +117,17 @@ hr {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-family: "Literata", serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+}
+
+h2 span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
 h1, .h1 {
@@ -491,7 +501,7 @@ progress {
   font-size: 1.25rem;
   font-weight: 300;
   padding-bottom: 2rem;
-  font-style: italic;
+  letter-spacing: 0.05rem;
 }
 
 .display-1 {
@@ -528,6 +538,7 @@ progress {
 }
 
 .display-4 {
+  font-family: "Literata", serif;
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 200;
   line-height: 1;
@@ -10842,6 +10853,10 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+section#icons {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
 
 
 /*CUSTOM CSS*/
@@ -10917,11 +10932,12 @@ i {
   padding-bottom: 4.5rem;
 }
 #copyright {
-  background: white;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  background-color: #ccc;
+  background-color: #555;
   font-size: 12px;
+  color: white;
+  letter-spacing: 0.05rem;
 }
 
 .display-7 {
@@ -10956,19 +10972,20 @@ i {
   list-style-type: none; /* Removes the bullet */
 }
 .footer-links a, p.footer-links a {
-  color: white;
+  color: #ccc;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 30px;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   margin-left: -30px;
+  letter-spacing: 0.05rem;
 }
 p.footer-links a {
   margin-left: 0px;
 }
 .footer-links a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .footer-head {
@@ -10978,4 +10995,7 @@ p.footer-links a {
 }
 .extra-space {
   margin-top: 2rem;
+}
+.footer-body {
+  letter-spacing: 0.05rem;
 }
