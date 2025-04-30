@@ -499,10 +499,14 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 500;
   padding-bottom: 2rem;
   letter-spacing: 0.05rem;
 }
+.color {
+  color: rgba(16, 75, 134, 1);
+}
+
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -543,6 +547,9 @@ progress {
   font-weight: 200;
   line-height: 1;
   margin: 2rem 0;
+}
+.display-4 span {
+  color: #104b86;
 }
 @media (min-width: 1200px) {
   .display-4 {
@@ -2861,10 +2868,9 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
-  --bs-btn-border-color: #0d6efd;
+  --bs-btn-bg: rgba(120, 164, 208, 1);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-bg: rgba(16, 75, 134, 1);
   --bs-btn-hover-border-color: #0a58ca;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
@@ -3745,7 +3751,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 1);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -8172,7 +8178,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
@@ -10848,13 +10854,17 @@ header {
   padding-top: 9.5rem;
   padding-bottom: 6rem;
 }
+header.interior {
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
+}
 
 section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
 section#icons {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 5rem;
 }
 
@@ -10931,13 +10941,19 @@ i {
   padding-top: 3rem;
   padding-bottom: 4.5rem;
 }
+#numbers p {
+  font-size: 1.2rem;
+}
 #copyright {
-  padding-top: 1.5rem;
+  padding-top: 0px;
   padding-bottom: 1rem;
-  background-color: #555;
+  background-color: rgba(16, 75, 134, 1);
   font-size: 12px;
   color: white;
   letter-spacing: 0.05rem;
+}
+#copyright p {
+  color: rgb(120, 164, 208);
 }
 
 .display-7 {
@@ -10949,22 +10965,25 @@ i {
   letter-spacing: -3px;
 }
 .display-8 {
+  font-family: "Helvetica Neue", sans-serif;
   font-size: calc(1.475rem + 2.7vw);
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1;
   margin: 2rem 0 .5rem 0;
   color: black;
   font-size: 2rem;
   letter-spacing: 3px;
   padding: 10px 0;
+  color: rgba(33, 138, 188, 1);
 }
 .display-8 span {
-  color: rgba(33, 138, 188, 1);
+  color: rgba(0, 0, 0, 1);
+  font-weight: 300;
 }
 
 #footer {
-  background-color: rgba(33, 138, 188, 1);
-  padding-top: 3rem;
+  background-color: rgba(16, 75, 134, 1);
+  padding-top: 1rem;
   padding-bottom: 2rem;
   color: white;
 }
@@ -10972,7 +10991,7 @@ i {
   list-style-type: none; /* Removes the bullet */
 }
 .footer-links a, p.footer-links a {
-  color: #ccc;
+  color: rgb(120, 164, 208);
   text-decoration: none;
   font-weight: 500;
   line-height: 30px;
@@ -10999,3 +11018,44 @@ p.footer-links a {
 .footer-body {
   letter-spacing: 0.05rem;
 }
+.cutline {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 1rem;
+
+}
+.large-body-copy {
+  font-size: 1.2rem;
+}
+.interior {
+  padding-bottom: 2rem;
+}
+.experienced-team h4 {
+  color: rgb(120, 164, 208);
+  font-family: "Helvetica Neue", sans-serif;
+}
+.experienced-team ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-left: 11px;      /* Creates space for the outdent */
+  text-indent: -11px;      /* Pulls the first line back */
+}
+
+.icon-primary {
+  color: rgb(120, 164, 208);
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+img.rounded-corners {
+  border-radius: 10px;
+}
+ p.center {
+   text-align: center;
+ }
+ p.extra-space {
+   padding-top: 1rem;
+ }
