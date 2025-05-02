@@ -498,7 +498,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding-bottom: 2rem;
   letter-spacing: 0.05rem;
@@ -543,7 +543,7 @@ progress {
 
 .display-4 {
   font-family: "Literata", serif;
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: 60px !important;
   font-weight: 200;
   line-height: 1;
   margin: 2rem 0;
@@ -10854,9 +10854,9 @@ header {
   padding-top: 9.5rem;
   padding-bottom: 6rem;
 }
-header.interior {
-  padding-top: 9.5rem;
-  padding-bottom: 6rem;
+.header-interior {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 section {
