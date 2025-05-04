@@ -113,7 +113,6 @@ hr {
   color: inherit;
   border: 0;
   border-top: 1px solid;
-  opacity: 0.25;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -7804,8 +7803,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pt-0 {
@@ -10854,9 +10853,9 @@ header {
   padding-top: 9.5rem;
   padding-bottom: 6rem;
 }
-header.interior {
+interior {
   padding-top: 9.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 section {
@@ -11055,4 +11054,32 @@ p.center {
 }
 p.extra-space {
   padding-top: 1rem;
+}
+h1.interior-head {
+  font-family: "Literata", serif;
+  font-weight: 200;
+  font-size: 3rem;
+}
+h1.interior-subhead {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgba(16, 75, 134, 1);
+  padding-left: 10px;
+  font-style: italic;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(16, 75, 134, 1);
+}
+
+h3.form-head {
+  font-family: "Helvetica Neue", sans-serif;
+  color: rgb(16, 75, 134);
+}
+
+hr.divider {
+  border: 0;
+  height: 1px;
+  background-color: rgb(16, 75, 134);
+  margin: 20px 0 40px;
+
 }
