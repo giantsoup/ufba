@@ -67,7 +67,7 @@
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-color-translucent: rgba(0, 0, 0, 0);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
@@ -11081,5 +11081,36 @@ hr.divider {
   height: 1px;
   background-color: rgb(16, 75, 134);
   margin: 20px 0 40px;
+}
+hr.divider-contact {
+  border: 0;
+  height: 1px;
+  background-color: rgb(16, 75, 134);
+  margin: 20px 0 0;
+}
 
+.contact-text {
+  font-size: 1rem;
+}
+
+.contact-head {
+  font-family: "Literata", serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+.contact-name {
+  font-family: "Helvetica Neue", sans-serif;
+  color: rgb(16, 75, 134);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.contact-title {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+  font-style: italic;
+}
+.first-column {
+  margin-top: 0rem !important;
 }
