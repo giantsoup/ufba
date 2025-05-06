@@ -2867,10 +2867,9 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: rgba(120, 164, 208, 1);
+  --bs-btn-hover-bg: rgba(120, 164, 208, 1);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgba(16, 75, 134, 1);
-  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-bg: rgba(16, 75, 134, 1);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #0a58ca;
@@ -3749,7 +3748,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-color: rgba(0, 0, 0, 0.8);
   --bs-navbar-hover-color: rgba(0, 0, 0, 1);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -10845,12 +10844,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+
 html {
   scroll-padding-top: 3.5rem;
 }
 
 header {
-  padding-top: 9.5rem;
+  padding-top: 7rem;
   padding-bottom: 6rem;
 }
 interior {
@@ -10872,7 +10873,7 @@ section#icons {
 
 i {
   font-size: 3rem;
-  color: #218abc;
+  color: rgba(16, 75, 134, 1);
   margin-bottom: 2rem;
 }
 
@@ -10987,7 +10988,7 @@ i {
   list-style-type: none; /* Removes the bullet */
 }
 .footer-links a, p.footer-links a {
-  color: rgb(120, 164, 208);
+  color: rgb(183, 208, 233);
   text-decoration: none;
   font-weight: 500;
   line-height: 30px;
@@ -11029,7 +11030,7 @@ p.footer-links a {
   padding-bottom: 2rem;
 }
 .experienced-team h4 {
-  color: rgb(120, 164, 208);
+  color: rgba(16, 75, 134, 1);
   font-family: "Helvetica Neue", sans-serif;
 }
 .experienced-team ul li {
@@ -11040,7 +11041,7 @@ p.footer-links a {
 }
 
 .icon-primary {
-  color: rgb(120, 164, 208);
+  color: rgba(16, 75, 134, 1);
   font-size: 1.2rem;
   padding: 0;
   margin: 0;
@@ -11059,16 +11060,17 @@ h1.interior-head {
   font-family: "Literata", serif;
   font-weight: 200;
   font-size: 3rem;
+  text-align: left;
 }
 h1.interior-subhead {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
   color: rgba(16, 75, 134, 1);
-  padding-left: 10px;
   font-style: italic;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   border-bottom: 1px solid rgba(16, 75, 134, 1);
+  text-align: left;
 }
 
 h3.form-head {
@@ -11113,4 +11115,8 @@ hr.divider-contact {
 }
 .first-column {
   margin-top: 0rem !important;
+}
+
+.hero-header {
+padding-top: 9.6rem;
 }
